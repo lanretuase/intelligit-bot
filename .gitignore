@@ -1,0 +1,117 @@
+# Environment and Credentials
+.env
+.env.local
+.env.production
+*.key
+*.pem
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite.backup
+
+# Model files (trained models are too large)
+model/neural_ensemble/
+model/neural_ensemble_real/
+model/neural_ensemble_working/
+model/lstm_trained.pth
+model/lstm_models/
+model/ensemble/
+model/backup/
+model/backup_unavailable/
+model/blitz_ensemble/
+model/optimization/
+model/training_results/
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# Training and test results
+*_test_results.json
+*_analysis_*.json
+*_results.json
+session_history.json
+current_session_status.json
+pair_rotation_history.json
+training_progress.json
+*_summary_*.json
+
+# Historical data and backtest results
+data/historical/
+data/real_training/
+data/blitz_historical/
+backtest_results/
+data/ensemble_performance_history.json
+data/martingale_state.json
+
+# Archive
+archive/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git
+.git/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Dashboard data
+dashboard/data/
+dashboard/*.sqlite*
+dashboard/bot_runtime.log*
+dashboard/dashboard_runtime.log*
+
+# Available assets (generated)
+available_tradeable_assets.txt
+
+# Pairs discovery (can be regenerated)
+blitz_pairs_discovery.json
